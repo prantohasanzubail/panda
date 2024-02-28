@@ -1,31 +1,32 @@
-
-
-
- /* basic *//* basic *//* basic *//* basic *//* basic */
+/* basic */
+/* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */ 
-.one{
+.o {
   padding: 20px 50px;
-   left: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   
+  left: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
-  
-header{
+
+header {
   padding: 20px 50px;
   display: flex;
-   flex-wrap: wrap;
-  
+  flex-wrap: wrap;
 }
-.pink{
-  color: #FF136F;
+.pink {
+  color: #ff136f;
 }
-.halfe-width{
+.halfe-width {
   width: 50%;
 }
-/* basic *//* basic *//* basic *//* basic *//* basic */
+.cat {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* basic */
+/* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */
 /* basic *//* basic *//* basic *//* basic *//* basic */ 
@@ -35,87 +36,152 @@ header{
 
 
 /* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
-.bar{
+.b {
   width: 350px;
-  padding: 10px 25px 10px 60px ;
- border: none;
+  padding: 10px 25px 10px 60px;
+  border: none;
   font-size: 18;
   border-radius: 25px;
-background-color: #bababa73;
-color: #bababa;
+  background-color: #bababa73;
+  color: #bababa;
 }
- 
-.logo{
-  padding:  0 50px 0 0;
- }
-  
- .m1 {
-padding: 0 50px  0 50px;
-text-decoration: none;
- }
- .m2{
+
+.logo {
+  padding: 0 50px 0 0;
+}
+
+.m1 {
+  padding: 0 50px 0 50px;
+  text-decoration: none;
+}
+.m2 {
   padding: 0 50px 0 0;
   text-decoration: none;
- }
- .m3{
+}
+.m3 {
   padding: 0 50px 0 0;
   text-decoration: none;
- }
- .m4{
+}
+.m4 {
   padding: 0 50px 0 0;
   text-decoration: none;
- }
- 
-/* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
+}
+
+/* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
 
 
 
 
 /* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one */
-.one{
-  background-color: #FEEAE9;
-  
+.o {
+  background-color: #feeae9;
 }
-.one h1{
+.one h1 {
   font-family: Poppins;
-font-size: 56px;
-font-weight: 700;
-line-height: 84px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.one{
-  margin: 50px; 
+.one {
+  margin: 50px;
   border-radius: 25px;
-  padding-left:  30px;
-  
+  padding-left: 30px;
+
   padding-right: 30px;
   padding-bottom: 30px;
- 
 }
 
- 
-.xbox{
+.xbox {
   width: 600px;
-height: 650px;
-top: 198px;
-left: 858px;
-bottom: 1000px ;
-
+  height: 650px;
+  top: 198px;
+  left: 858px;
+  bottom: 1000px;
 }
 
-
-.H-button{
+.H-button {
   text-decoration: none;
   color: wheat;
-  background-image: linear-gradient(#FF589B , #FF136F);
+  background-image: linear-gradient(#ff589b, #ff136f);
   height: 25px;
   padding: 10px 30px;
   border-radius: 6px;
- position: relative;
- 
+  position: relative;
 }
- 
-  
+
+/* .one */
+/* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one *//* .one */
+
+
+
+
+
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat */
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat */
+.cat {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+}
+.cat1 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 25px;
+  width: 359px;
+  height: 120px;
+  background-image: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.cat2 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 25px;
+  width: 359px;
+  height: 120px;
+  background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.cat3 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 25px;
+  width: 359px;
+  height: 120px;
+  background-image: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+.cat1 img {
+  width: 120px;
+  height: 150px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.cat2 img {
+  width: 120px;
+  height: 150px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.cat3 img {
+  width: 120px;
+  height: 150px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat */
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *
+/* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat *//* cat */
