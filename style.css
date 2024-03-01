@@ -329,6 +329,25 @@ border-radius: 20px;
   background-color:#F4F4F4;
   display: flex;
  }
+ .title{
+  background-color: #F4F4F4 ;
+  margin: 0 ;
+ }
+  .title h1{
+    font-size: xx-large;
+  }
+  .margin-container p{
+  padding-left: 1240px;
+  color: orange;
+ }
+ .margin-container {
+  background-color:#F4F4F4 ; /* Your desired background color */
+  padding: 20px; /* The space between the content and the background color */
+}
+
+.content {
+  margin: 20px; /* The space around the content */
+}
  /* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */
  footer{
   background-color: #FFF2F1;
